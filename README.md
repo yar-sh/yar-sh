@@ -1,76 +1,27 @@
-# Yaroslav "Yar" Mikhaylik
+### Yo! I'm Yar (aka HaselLoyance) :canada: / :ru:
 
-**Senior Software Engineer - AI/ML Infrastructure & Systems**
-LLM serving (vLLM), compilers, distributed systems.
+I like computers. I like math. I like making things, and a lot of the time I
+make them just because I want them to exist.
 
-I build the layer that makes AI systems actually run in production: model
-serving, evaluation and quantization harnesses, infrastructure-as-code, and
-the distributed/low-level systems underneath. CTO-level ownership from silicon
-to org chart - I have shipped from JIT operator compilers on ARM big-data
-chips up through whole product platforms and the teams that build them.
+Most of my day job lives in AI/ML infrastructure and systems land - getting
+LLMs to actually run in production, plus the compilers and distributed-systems
+plumbing underneath. But honestly the GitHub-and-projects version of me is the
+fun one: I'll happily go build a genetic algorithm to route through a subway,
+beep MIDI files through the Windows console, reverse-engineer a PSP game so it
+speaks English, or play Bad Apple on a Bitcoin price chart.
 
-- Based in Ottawa, ON, Canada. Remote-first; open to relocation (TN-eligible).
-- BSc, Computer Science and Mathematics (Joint Honours), University of Manitoba.
-- i@yar.sh - [yar.sh](https://yar.sh) - [LinkedIn](https://www.linkedin.com/in/yaroslav-mikhaylik/)
+Things that are true about me:
 
-## What I work on
+- I ship game jam games (9 Ludum Dare entries and counting).
+- I do low-level ROM hacking and reverse engineering for fun.
+- I run a little homemade fleet of machines and AI agents because why not.
+- I once speedran games until I injured my gaming fingers. Worth it.
 
-- **LLM serving / inference.** Production vLLM pipelines with Vertex/Gemini
-  fallback, token-length routing, per-request model override, and TensorRT-LLM
-  recompilation for faster inference. LangGraph workflows on top.
-- **ML evaluation & quantization.** Eval and quantization harnesses across many
-  serving configs and benchmark types, multilingual quality (lm-eval-harness),
-  W4A16 down to W2A16 / AWQ matrices, LLM-as-judge, reproducible timestamped runs.
-- **Infrastructure & distributed systems.** Terraform IaC with tiered IAM and
-  managed secrets, dev/prod parity, multi-cloud over WireGuard, gateway and load
-  balancer consolidation, GitOps. NixOS fleets, OpenBao secrets, hardware-key trust.
-- **Compilers & low level.** JIT operator compilation with PGO and realtime
-  counters (OmniRuntime), trusted execution environments for petabyte-scale
-  big-data on ARM, graph-based ANN vector indexes (patent-pending).
+If you want the formal recruiter-flavored version, that's what
+[LinkedIn](https://www.linkedin.com/in/yaroslav-mikhaylik/) is for. The actual
+junkyard of everything I've built lives at [yar.sh](https://yar.sh).
 
-## Experience
+Reach out if you need a programmer / reverse-engineer who finds the weird
+problems fun.
 
-| Company | Role | When |
-| --- | --- | --- |
-| Inkast | CTO (earlier: Backend/Infra Dev) | 2026-present (2022-2024) |
-| Solant | CTO & AI/ML Engineer | 2025-2026 |
-| Ford Motor Company | Software Engineer | 2024-2025 |
-| Huawei Technologies Canada | Big Data Engineer | 2023-2024 |
-| FarmLink Marketing Solutions | Software Developer | 2020-2022 |
-| Cogmation Robotics | Software Developer | 2021 |
-
-Highlights: at Solant, led the technical side of an ~11-person org and built a
-production LLM pipeline end to end (self-hosted vLLM + cloud fallback,
-TensorRT-LLM recompilation for +12% tok/sec) plus a full eval/quantization
-harness and a single-repo Terraform source of truth. At Ford, built an
-AUTOSAR-compatible logging API for an AOSP vehicle platform across multiple ECU
-nodes over Ethernet and CAN, within tight flash constraints, for warranty
-diagnostics. At Huawei, worked on a TEE for big-data on Huawei ARM chips, JIT
-operator compilation (OmniRuntime), and graph-based ANN vector indexes.
-
-## Proof of work
-
-The unfakeable layer - things I built because I wanted them to exist:
-
-- **clusterstuck** - a self-built multi-machine AI agent swarm on a secure
-  NixOS fleet: OpenBao secrets, Nitrokey-3 hardware-key trust model, Forgejo
-  GitOps, capability-routed agent personas.
-- **Censorship-resistant networking** - an anti-censorship VPN transport
-  (Reality / xHTTP / CDN) for hostile network environments.
-- **AI-focused filesystem concept** - per-file embeddings instead of many
-  per-project vector databases.
-- **Games & reverse engineering** - 9 Ludum Dare entries (ship-under-pressure),
-  a Steins;Gate PSP English patch (C++ ROM hacking), Criware reverse-engineering
-  tools, and an osu! file parser. See [yar.sh](https://yar.sh) for the full junkyard.
-
-## Publication
-
-"Development of a Convolutional Neural Network for Defining a Renal Pathology
-Using Computed Tomography Images" - Kabachenko F., Samarina A., Mikhaylik Y. -
-Studies in Computational Intelligence, 2022.
-
-## Tech
-
-LLVM - C/C++ - Python - TypeScript - CUDA - vLLM - TensorRT-LLM - PyTorch -
-TensorFlow - distributed systems - Terraform - Docker - Kubernetes - GCP -
-PostgreSQL - vector databases - Apache Spark - Hadoop - HPC - Django - NixOS.
+[<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='40'>](https://github.com/yar-sh)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg' alt='linkedin' height='40'>](https://www.linkedin.com/in/yaroslav-mikhaylik/)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/youtube.svg' alt='YouTube' height='40'>](https://www.youtube.com/@yar_sh)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/telegram.svg' alt='telegram' height='40'>](https://t.me/hs_ray)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/discord.svg' alt='discord' height='40'>](https://discordapp.com/users/548599191836819480)
