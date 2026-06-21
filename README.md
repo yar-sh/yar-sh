@@ -1,3 +1,5 @@
+> **Android is going closed-source.** Keep Android open: https://keepandroidopen.org/
+
 ### Yo! I'm Yar (aka HaselLoyance) :canada: / :ru:
 
 I like computers. I like math. I like making things, and a lot of the time I
